@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project - Yann Nzirabatinyi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  
+  <div> 
+    <h2>What is Bootstrap</h2>
+    <p>Bootstrap.css is a CSS framework that organizes and manages the layout of a website. So the  HTML part manages the content and structure of a web page and CSS takes care of the layout of the site. For this reason, the two structures must coexist to perform a particular action.</p>
+    <p>It also provides tools with styles already in place eg for buttons, typography for navigation interfaces and many more.</p>
+  </div>
+  
+  <div class="container-fluid"> 
+    <h2>What are the advantages of using Bootstrap</h2>
+    <p>-It makes it easy and quicker for setting up a web page presentation</p>
+    <p>-Bootstrap allows the CSS presentation to be similar regardless of the browser used</p>
+    <p>-It has a grid system that allows the positioning of HTML elements on a web page</p>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Page 1-1</a></li>
+                <li><a href="#">Page 1-2</a></li>
+                <li><a href="#">Page 1-3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+        </div>
+      </nav>
+<!-- xxxxxxxxxxxxxxx Details xxxxxxxxxxxxxxxx -->
+<div class="container">
+    <h2>The Container classes are the first important tool for Bootstrap Grid</h2>
+         
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>Columns</th>
+        <th>Their functions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>.col-{number}</td>
+        <td>It sets how many columns a element should stretch </td>
+      </tr>
+      <tr>
+        <td>.col-{breakpoint}</td>
+        <td>Target specific breakpoint when creating columns</td>
+      </tr>
+      <tr>
+        <td>.align-items- and .justify-content-</td>
+        <td>classes can be used to align columns</td>
+      </tr>
+    </div>
+
+  
+  </body>
+  <!-- end container -->
+  <strong>Example</strong>
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-3</div>
+    <div class="col-sm-4" style="background-color:lavender;">.col-sm-3</div>
+  </div>
+  <h2>Row is also an important tool</h2>
+  <p>row is often used to put some structure and move on to a different set of layout underneath causes everything to be nice and clean.</p>
+  
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>London</h2>
+        <p>smindurfiumfcmiurnmnfunmdncmfdmfdnmocnfudcmdfcdfucdfnc
+      mdnfcmfmdfjjnvmdfdjvnmdfjvnmdofnvmoifnvmiddfnvdfc
+      ovmodfnvmdfjnvmoddfnv.</p>
+        <button type="button" class="btn btn-info">Info</button>
+      </div>
+      <div class="col-sm-4">
+        <h2>Paris</h2>
+        <p>hfisefufvmsiefnvmsfvmdsvnfjvundjnvufdj
+      ncdmnvmodifvndfnvmodfnvdfjnvdfkvdkf,vkdf,vc
+  </p>
+        <button type="button" class="btn btn-info">Info</button>
+      </div>
+      <div class="col-sm-4">
+        <h2>Tokyo</h2>
+        <p>nfmfuvmfumedsurfnmeonfeqifdvmnemofnmqiezfhureuuhfeu
+      reufmuerfmoerfmojrfùijqemrifmjrfmojfmoijsrfoijirjf
+      siffhmiuhfmuhsfmosfmjmsfmosuhfmoushdfmushfdmuhds.</p>
+        <button type="button" class="btn btn-info">Info</button>
+      </div>
+    </div>
+  </div>
+  
+  </html>
